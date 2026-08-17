@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kaviraj D | Test Automation Engineer</title>
+<meta name="description" content="Portfolio of Kaviraj D, Test Automation Engineer with 6+ years of experience in software testing, automation, API testing and performance testing.">
+<style>
+:root{
+  --bg:#f5f8f6; --surface:#ffffff; --text:#17231e; --muted:#5f6d66;
+  --accent:#3f735c; --accent2:#dfece5; --line:#d9e2dd;
+  --shadow:0 12px 35px rgba(30,55,44,.08);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+a{color:inherit;text-decoration:none}
+.container{width:min(1120px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:20;background:rgba(245,248,246,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav-inner{display:flex;justify-content:space-between;align-items:center;min-height:70px}
+.logo{font-weight:800;letter-spacing:.5px}
+.nav-links{display:flex;gap:24px;font-size:.92rem;color:var(--muted)}
+.nav-links a:hover{color:var(--accent)}
+.hero{padding:90px 0 75px}
+.hero-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:50px;align-items:center}
+.eyebrow{display:inline-block;background:var(--accent2);color:var(--accent);padding:7px 12px;border-radius:999px;font-size:.82rem;font-weight:700}
+h1{font-size:clamp(2.8rem,7vw,5.3rem);line-height:1.02;margin:18px 0}
+.hero h2{font-size:1.35rem;color:var(--accent);margin:0 0 18px}
+.lead{font-size:1.08rem;color:var(--muted);max-width:720px}
+.buttons{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{padding:12px 18px;border-radius:10px;border:1px solid var(--line);font-weight:700}
+.btn.primary{background:var(--accent);color:white;border-color:var(--accent)}
+.btn.secondary{background:var(--surface)}
+.profile-card{background:var(--surface);padding:28px;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow)}
+.avatar{width:100px;height:100px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:white;font-size:2rem;font-weight:800;margin-bottom:20px}
+.contact-item{padding:11px 0;border-bottom:1px solid var(--line);font-size:.94rem}
+.contact-item:last-child{border:0}
+section{padding:72px 0}
+.section-head{margin-bottom:34px}
+.section-head span{color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:1.5px;font-size:.78rem}
+.section-head h2{font-size:2.1rem;margin:7px 0}
+.section-head p{color:var(--muted);max-width:760px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:var(--shadow)}
+.card h3{margin-top:0}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.tag{background:var(--accent2);color:var(--accent);padding:6px 10px;border-radius:8px;font-size:.8rem;font-weight:700}
+.timeline{position:relative;padding-left:25px;border-left:2px solid var(--line)}
+.job{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:24px;margin-bottom:20px;box-shadow:var(--shadow)}
+.job:before{content:"";position:absolute;left:-32px;top:29px;width:12px;height:12px;border-radius:50%;background:var(--accent);border:4px solid var(--bg)}
+.job-top{display:flex;justify-content:space-between;gap:20px;align-items:flex-start}
+.company{font-weight:800;font-size:1.12rem}
+.period{color:var(--accent);font-weight:700;white-space:nowrap}
+.role{color:var(--muted);margin-top:3px}
+.job p{color:var(--muted)}
+ul{padding-left:20px}
+li{margin:7px 0}
+.skill-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.skill{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px}
+.skill strong{display:block;margin-bottom:7px}
+.skill small{color:var(--muted)}
+.edu{display:flex;justify-content:space-between;gap:20px;background:var(--surface);border:1px solid var(--line);padding:24px;border-radius:18px}
+footer{padding:40px 0;border-top:1px solid var(--line);color:var(--muted);text-align:center}
+@media(max-width:850px){
+  .hero-grid,.cards{grid-template-columns:1fr}
+  .skill-grid{grid-template-columns:repeat(2,1fr)}
+  .nav-links{display:none}
+}
+@media(max-width:560px){
+  .hero{padding-top:60px}.skill-grid{grid-template-columns:1fr}
+  .job-top,.edu{flex-direction:column}.period{white-space:normal}
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="container nav-inner">
+    <div class="logo">Kaviraj D</div>
+    <div class="nav-links">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a>
+      <a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">TEST AUTOMATION ENGINEER</span>
+      <h1>Kaviraj D</h1>
+      <h2>Automation • API • Performance • Software Testing</h2>
+      <p class="lead">
+        Senior Test Engineer with 6+ years of testing expertise across Clinical Research
+        and Finance applications, with strong experience in automation testing, API testing,
+        performance testing, requirements analysis and Agile delivery.
+      </p>
+      <div class="buttons">
+        <a class="btn primary" href="mailto:dkaviraj1805@gmail.com">Contact Me</a>
+        <a class="btn secondary" href="#experience">View Experience</a>
+      </div>
+    </div>
+    <aside class="profile-card">
+      <div class="avatar">KD</div>
+      <div class="contact-item"><strong>Email</strong><br>dkaviraj1805@gmail.com</div>
+      <div class="contact-item"><strong>Phone</strong><br>+91 8248850533</div>
+      <div class="contact-item"><strong>Location</strong><br>Chennai, India</div>
+    </aside>
+  </div>
+</header>
+
+<main>
+<section id="about">
+  <div class="container">
+    <div class="section-head">
+      <span>Profile</span>
+      <h2>About Me</h2>
+      <p>
+        Highly skilled in Selenium, Cypress, API testing and JMeter, with experience across
+        SDLC/STLC and Agile processes. Experienced in business and functional requirement
+        analysis, functional automation, performance testing, webservice testing, user-story
+        review, sprint planning, test strategy, UAT planning and test reporting.
+      </p>
+    </div>
+    <div class="cards">
+      <div class="card"><h3>Automation Engineering</h3><p>Developing web automation test cases and building automation frameworks from scratch.</p></div>
+      <div class="card"><h3>Quality Engineering</h3><p>Functional, regression, integration, system, black-box, penetration and performance testing.</p></div>
+      <div class="card"><h3>Delivery & Analysis</h3><p>Requirement analysis, impact analysis, test planning, defect lifecycle and root-cause analysis.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <div class="section-head"><span>Expertise</span><h2>Skills & Tools</h2></div>
+    <div class="skill-grid">
+      <div class="skill"><strong>Automation</strong><small>Selenium WebDriver, Java, Cucumber, TestNG, JUnit</small></div>
+      <div class="skill"><strong>API / Web Services</strong><small>SOAPUI, POSTMAN, SOAP, REST API testing</small></div>
+      <div class="skill"><strong>Performance</strong><small>JMeter performance testing</small></div>
+      <div class="skill"><strong>Security</strong><small>BURP, penetration testing exposure</small></div>
+      <div class="skill"><strong>Frameworks</strong><small>Page Object Model, Keyword Driven, Data Driven, Hybrid</small></div>
+      <div class="skill"><strong>Build / CI</strong><small>Maven, ANT, Jenkins</small></div>
+      <div class="skill"><strong>Languages</strong><small>Java, SQL / PLSQL, JavaScript</small></div>
+      <div class="skill"><strong>Backend / OS</strong><small>Oracle; DOS, Windows, Unix</small></div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="container">
+    <div class="section-head"><span>Career</span><h2>Professional Experience</h2></div>
+    <div class="timeline">
+      <article class="job">
+        <div class="job-top"><div><div class="company">Tata Consultancy Services</div><div class="role">Test Automation Engineer • Project: Velos eResearch • Client: WCG</div></div><div class="period">09/2022 – Present</div></div>
+        <p>
+          Velos eResearch is a clinical research management suite supporting administrative,
+          financial and research activities. The platform supports study creation, patient
+          enrollment and monitoring, scheduled tests, financial feasibility, invoicing,
+          billing, revenue tracking and forecasting.
+        </p>
+      </article>
+      <article class="job">
+        <div class="job-top"><div><div class="company">Aithent Technologies PVT LTD</div><div class="role">Project: Velos eResearch • Client: WCG</div></div><div class="period">04/2019 – 08/2022</div></div>
+        <p>
+          Worked on Velos eResearch, a clinical research management suite covering research,
+          administrative and financial workflows including patient studies, testing schedules,
+          invoicing, billing and revenue tracking.
+        </p>
+      </article>
+      <article class="job">
+        <div class="job-top"><div><div class="company">Kelly Services India Private Limited</div><div class="role">Project: JIKAN • Client: nCoup</div></div><div class="period">01/2017 – 09/2017</div></div>
+        <p>
+          JIKAN is a smart appointment booking system enabling users to view available booking
+          slots and select preferred dates and times through web-based and mobile-based experiences.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <div class="section-head"><span>Selected Work</span><h2>Projects</h2><p>Project information below is taken directly from the resume.</p></div>
+    <div class="cards">
+      <div class="card">
+        <h3>Velos eResearch</h3>
+        <p>Clinical research management suite supporting administrative, financial and research activities, including patient enrollment, scheduled tests, invoicing, billing and revenue tracking.</p>
+        <div class="tags"><span class="tag">Clinical Research</span><span class="tag">Finance</span><span class="tag">Testing</span></div>
+      </div>
+      <div class="card">
+        <h3>JIKAN</h3>
+        <p>Smart appointment booking system allowing users to view available slots and select preferred dates and times across web-based and mobile-based experiences.</p>
+        <div class="tags"><span class="tag">Appointment Booking</span><span class="tag">Web</span><span class="tag">Mobile</span></div>
+      </div>
+      <div class="card">
+        <h3>Automation Frameworks</h3>
+        <p>Designed and implemented automation frameworks from scratch, including Page Object Model, Keyword Driven, Data Driven and Hybrid frameworks.</p>
+        <div class="tags"><span class="tag">Selenium</span><span class="tag">Java</span><span class="tag">TestNG</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="responsibilities">
+  <div class="container">
+    <div class="section-head"><span>What I Do</span><h2>Roles & Responsibilities</h2></div>
+    <div class="card">
+      <ul>
+        <li>Identify automation scenarios from test cases and user stories.</li>
+        <li>Develop web automation test cases for identified automation scenarios.</li>
+        <li>Review teammates' code and suggest improvements when required.</li>
+        <li>Run smoke regression suites after builds and publish detailed reports with detected bugs.</li>
+        <li>Run full automation suites for releases and analyze root causes of failed scripts.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="container">
+    <div class="section-head"><span>Education</span><h2>Academic Background</h2></div>
+    <div class="edu">
+      <div><strong>B.E.</strong><br>Sree Sastha Institute of Engineering and Technology</div>
+      <div><strong>2012 – 2016</strong></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="section-head"><span>Let's Connect</span><h2>Contact</h2><p>Interested in discussing testing, automation or quality engineering opportunities?</p></div>
+    <div class="cards">
+      <div class="card"><h3>Email</h3><a href="mailto:dkaviraj1805@gmail.com">dkaviraj1805@gmail.com</a></div>
+      <div class="card"><h3>Phone</h3><a href="tel:+918248850533">+91 8248850533</a></div>
+      <div class="card"><h3>Location</h3><p>Chennai, India</p></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">© Kaviraj D • Test Automation Engineer</div>
+</footer>
+</body>
+</html>
